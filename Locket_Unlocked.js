@@ -93,7 +93,7 @@ if (ua.includes("Locket")) {
     });
 
     // ============================================================
-    // 3. CAMERA, VIDEO (60S / 0.45MBPS) & DUNG LƯỢNG TẢI (100MB)
+    // 3. CAMERA, VIDEO (60S / 0.35MBPS) & DUNG LƯỢNG TẢI (100MB)
     // ============================================================
     var MY_VIDEO_DURATION = 60.0;
     var durationStr = MY_VIDEO_DURATION.toString();
@@ -112,8 +112,8 @@ if (ua.includes("Locket")) {
         telephoto: true,
         srgb: true,
         lanczos: true,
-        quality_mbps: 0.45,
-        qualityMbps: 0.45
+        quality_mbps: 0.35,
+        qualityMbps: 0.35
     };
 
     var cameraRollConfig = {
@@ -130,8 +130,8 @@ if (ua.includes("Locket")) {
         max_file_size: MAX_SIZE_BYTES,
         max_upload_bytes: MAX_SIZE_BYTES,
         max_size_bytes: MAX_SIZE_BYTES,
-        quality_mbps: 0.45,
-        qualityMbps: 0.45,
+        quality_mbps: 0.35,
+        qualityMbps: 0.35,
         flash_button: true
     };
 
@@ -184,7 +184,7 @@ if (ua.includes("Locket")) {
         goldMaxDuration: durationStr,
         max_file_size: MAX_SIZE_BYTES.toString(),
         max_upload_bytes: MAX_SIZE_BYTES.toString(),
-        video_quality_mbps: "0.45",
+        video_quality_mbps: "0.35",
         video_sound_enabled: "true",
         microphone_enabled: "true",
         camera_microphone_enabled: "true",
